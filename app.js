@@ -1,7 +1,3 @@
-let alertString;
-alertString = addString("WebCamp");
-alert(alertString);
-function addString(strA){
-    let addStr = "Hello" + strA;
-    return addStr;
-}
+$(document).ready(function () {
+  $('body').html('<h1>Hello jQuery!!</h1>');
+});
