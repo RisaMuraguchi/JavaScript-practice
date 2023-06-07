@@ -1,3 +1,1 @@
-$(function(){
-  $('.box1').slideDown();
-});
+alert('Hello World');
