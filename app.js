@@ -17,14 +17,6 @@ for (let i = 0; i < 10; i++) {
   console.log(i);
 }
 
-// var str = "webcamp";
-// function foo() {
-  // console.log(str);
-  // var str = "dmm webcamp";
-  // console.log(str);
-// }
-//
-// foo();
 
 let a = 6;
 a += 2;
@@ -64,12 +56,6 @@ switch (birthplace) {
       console.log('出身地は東京以外です');
 }
 
-// [5-4]確認問題
-let boo = true;
-if (boo) {
-  console.log('OK');
-  boo = false;
-}
 
 let num = 0;
 for(let i = 1; i < 11; i++){
