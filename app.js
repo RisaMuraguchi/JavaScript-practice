@@ -17,11 +17,19 @@ for (let i = 0; i < 10; i++) {
   console.log(i);
 }
 
-var str = "webcamp";
-function foo() {
-  console.log(str);
-  var str = "dmm webcamp";
-  console.log(str);
-}
+// var str = "webcamp";
+// function foo() {
+  // console.log(str);
+  // var str = "dmm webcamp";
+  // console.log(str);
+// }
+// 
+// foo();
 
-foo();
+let a = 6;
+a += 2;
+console.log(a);
+
+let foo = 6;
+foo += 2;
+console.log(foo);
