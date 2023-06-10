@@ -23,7 +23,7 @@ for (let i = 0; i < 10; i++) {
   // var str = "dmm webcamp";
   // console.log(str);
 // }
-// 
+//
 // foo();
 
 let a = 6;
@@ -33,3 +33,40 @@ console.log(a);
 let foo = 6;
 foo += 2;
 console.log(foo);
+
+
+let orange = 100;
+let apple = 120;
+
+if(orange < apple) {
+  alert('みかんの値段がりんごより安い');
+} else if(orange == apple) {
+  alert('みかんとりんごが同じ値段');
+} else {
+  alert('みかんの値段がりんごより高い');
+}
+
+let b = 1;
+switch (b) {
+  case 1:
+      console.log('bは1です');
+      break;
+  default:
+      console.log('bの値は1ではありません');
+}
+
+let birthplace = "東京";
+switch (birthplace) {
+  case '東京':
+      console.log('出身地は東京です');
+      break;
+  default:
+      console.log('出身地は東京以外です');
+}
+
+// [5-4]確認問題
+let boo = true;
+if (boo) {
+  console.log('OK');
+  boo = false;
+}
