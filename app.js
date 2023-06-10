@@ -70,3 +70,9 @@ if (boo) {
   console.log('OK');
   boo = false;
 }
+
+let num = 0;
+for(let i = 1; i < 11; i++){
+  num = num + i;
+}
+console.log('1から10まで足し算した結果は' + num + 'です');
