@@ -62,3 +62,9 @@ for(let i = 1; i < 11; i++){
   num = num + i;
 }
 console.log('1から10まで足し算した結果は' + num + 'です');
+
+const fruit = {orange:170, apple:90, lemon:110};
+for (let i in fruit){
+  console.log("fruit." + i + ' = ' + fruit[i]);
+}
+console.log('end');
