@@ -57,14 +57,26 @@ switch (birthplace) {
 }
 
 
-let num = 0;
-for(let i = 1; i < 11; i++){
-  num = num + i;
-}
-console.log('1から10まで足し算した結果は' + num + 'です');
+// let num = 0;
+// for(let i = 1; i < 11; i++){
+  // num = num + i;
+// }
+// console.log('1から10まで足し算した結果は' + num + 'です');
 
+// for...in文
 const fruit = {orange:170, apple:90, lemon:110};
 for (let i in fruit){
   console.log("fruit." + i + ' = ' + fruit[i]);
 }
 console.log('end');
+
+// while文
+let max = 100;
+let num = 1;
+let count = 0;
+
+while(num < max) {
+  num = num * 2;
+    count++;
+}
+console.log('2を掛け続けて' + max + 'を超えるのに必要だった回数は' + count + '回です');
