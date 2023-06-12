@@ -56,7 +56,7 @@ switch (birthplace) {
       console.log('出身地は東京以外です');
 }
 
-
+// for文
 // let num = 0;
 // for(let i = 1; i < 11; i++){
   // num = num + i;
@@ -80,3 +80,17 @@ while(num < max) {
     count++;
 }
 console.log('2を掛け続けて' + max + 'を超えるのに必要だった回数は' + count + '回です');
+
+
+let alertString;
+alertString = addString("WebCamp");
+
+alert(alertString)
+
+function addString(strA){
+  let addStr = "Hello" + strA;
+  return addStr;
+}
+
+let promptStr = prompt('何か好きな文字を入力してください。');
+alert(promptStr);
